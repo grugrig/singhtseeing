@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+div#item {
+    margin-bottom: 10px;
+ }
+
+ h2#name {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ div#description {
+    margin-bottom: 5px;
+ }
+
+ div#picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ div#map {
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ a#attr_but {
+   margin-top: 15px;;
+   margin-bottom: 15px;
+}
+
+#message{
+   color: red;
+}
+
+div#buttons {
+   margin-bottom: 10px;
+}
