@@ -198,8 +198,9 @@ def attractions_delete(id):
 
 
 def main():
-    db_session.global_init('/home/gruand69/Dev/singhtseeing/db/ss.db')
-
+    # db_session.global_init('/home/gruand69/Dev/singhtseeing/db/ss.db')
+    db_session.global_init('db/ss.db')
+    
     api.add_resource(AttractionsListResourse, '/api/attractions')
     api.add_resource(
         AttractionsResource, '/api/attractions/<int:attractions_id>')
